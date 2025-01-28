@@ -1,13 +1,18 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import { GlobeAltIcon } from '@heroicons/react/24/outline'; // Optional icon for extra styling
 import { lusitana } from '@/app/ui/fonts';
 
-export default function AcmeLogo() {
+export default function LogoWithText() {
   return (
-    <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
-    >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+    <div className={`${lusitana.className} flex items-center space-x-4`}>
+      {/* Logo Image */}
+      <img
+       src="/hero-desktop.jpg"// Path to your logo image
+        alt="Jitegemea Sacco Logo"
+        className="w-15h-110" // Adjust the size of the logo
+      />
+      
+   
+     
     </div>
   );
 }

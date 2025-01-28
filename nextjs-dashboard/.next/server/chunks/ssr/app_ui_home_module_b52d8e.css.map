@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/ui/home.module.css"],"sourcesContent":["/* home.module.css */\r\n.container {\r\n    padding: 20px;\r\n    background-color: #f0f0f0;\r\n}\r\n\r\n.title {\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n}\r\n\r\n.subtitle {\r\n    font-size: 18px;\r\n    color: #666;\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;AAKA;;;;;AAKA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

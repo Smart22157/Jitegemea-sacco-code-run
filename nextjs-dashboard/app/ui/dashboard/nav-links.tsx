@@ -2,10 +2,10 @@ import {
   UserGroupIcon,
   HomeIcon,
   DocumentDuplicateIcon,
+  BanknotesIcon, // Import the icon for the loan tracker
 } from '@heroicons/react/24/outline';
 
 // Map of links to display in the side navigation.
-// Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
   {
@@ -14,6 +14,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  { name: 'Loan Tracker', href: '/dashboard/loan', icon: BanknotesIcon }, // Add loan tracker link
 ];
 
 export default function NavLinks() {
