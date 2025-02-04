@@ -10,7 +10,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
-async function startServer() {
+async function startServer() { 
     try {
         console.log("Attempting to connect to the database..."); // Log before connecting
         await connectToDatabase(); // Attempt to connect to the database
